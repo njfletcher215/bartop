@@ -1,0 +1,33 @@
+{
+    "poll": {
+        "time": 5,
+        "logfile": "/tmp/bartop/last-glance.json",
+        "plugins": "cpu,percpu,load,mem,memswap,fs,network,gpu"
+    },
+    "widgets": {
+        "cpu": {
+            "format": "  {cpu.total}%",
+            "tooltip_format": "Usage\nUser: {cpu.user}%\tSys: {cpu.system}%\t\t\t\tTotal: {cpu.total}%\n\nCores\nC0:\t{percpu[0].total}%\tC1:\t{percpu[1].total}%\tC2:\t{percpu[2].total}%\tC3:\t{percpu[3].total}%\n\nLoad Averages\n1m: {load.min1}\t5m: {load.min5}\t15m: {load.min15}",
+            "percentage_format": "{cpu.total}",
+            "plugins": "cpu,percpu,load"
+        },
+        "memory": {
+            "format": "  {mem.percent}%",
+            "tooltip_format": "Used:\t{mem.used} / {mem.total} ({mem.percent}%)\nAvailable:\t{mem.available}\nCache:\t{mem.cached}",
+            "percentage_format": "{mem.percent}",
+            "plugins": "mem"
+        },
+        "disk": {
+            "format": " {fs[0].percent}%",
+            "tooltip_format": "Device: {fs[0].device_name} ({fs[0].fs_type})\nMount Point: {fs[0].mnt_point}\nUsed: {fs[0].used}/{fs[0].size} ({fs[0].percent}%)\nFree: {fs[0].free}",
+            "percentage_format": "{fs[0].percent}",
+            "plugins": "fs"
+        },
+        "network": {
+            "format": "󰛶  {network[1].bytes_sent_rate_per_sec}/s 󰛴  {network[1].bytes_recv_rate_per_sec}/s",
+            "tooltip_format": "{network[1].interface_name}\nUpload: {network[1].bytes_sent} ({network[1].bytes_sent_rate_per_sec}/s)\t\tDownload: {network[1].bytes_recv} ({network[1].bytes_recv_rate_per_sec}/s)\nTotal Upload: {network[1].bytes_sent_gauge}\tTotal Download: {network[1].bytes_recv_gauge}",
+            "plugins": "network"
+        }
+    }
+}
+

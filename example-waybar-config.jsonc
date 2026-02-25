@@ -1,0 +1,31 @@
+{
+    "group/bartop": {
+        "orientation": "inherit",
+        "modules": [
+            "custom/bartop-cpu",
+            "custom/bartop-memory",
+            "custom/bartop-disk",
+            "custom/bartop-network"
+        ]
+    },
+    "custom/bartop-cpu": {
+        "exec": "bartop cpu",
+        "return-type": "json",
+        "on-click": "$TERMINAL btop"
+    },
+    "custom/bartop-memory": {
+        "exec": "bartop memory",
+        "return-type": "json",
+        "on-click": "$TERMINAL btop"
+    },
+    "custom/bartop-disk": {
+        "exec": "bartop disk",
+        "return-type": "json",
+        "on-click": "$TERMINAL btop"
+    },
+    "custom/bartop-network": {
+        "exec": "bartop network",
+        "return-type": "json",
+        "on-click": "$TERMINAL btop"
+    }
+}
