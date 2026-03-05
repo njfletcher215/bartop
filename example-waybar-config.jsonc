@@ -11,21 +11,21 @@
     "custom/bartop-cpu": {
         "exec": "bartop cpu",
         "return-type": "json",
-        "on-click": "$TERMINAL btop"
+        "on-click": "/usr/bin/kitty -e bash -c btop"
     },
     "custom/bartop-memory": {
         "exec": "bartop memory",
         "return-type": "json",
-        "on-click": "$TERMINAL btop"
+        "on-click": "/usr/bin/kitty -e bash -c btop"
     },
     "custom/bartop-disk": {
         "exec": "bartop disk",
         "return-type": "json",
-        "on-click": "$TERMINAL btop"
+        "on-click": "/usr/bin/kitty -e bash -c btop"
     },
     "custom/bartop-network": {
         "exec": "bartop network",
         "return-type": "json",
-        "on-click": "$TERMINAL btop"
+        "on-click": "/usr/bin/kitty -e bash -c btop"
     }
 }
