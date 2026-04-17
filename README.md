@@ -1,3 +1,5 @@
+![Header Image: The bartop logo with an example of how bartop could be styled in the waybar below.](header.svg)
+
 # Bartop
 **Highly configurable system monitoring modules for waybar.**
 
