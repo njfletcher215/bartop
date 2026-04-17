@@ -59,16 +59,12 @@
    inkscape:cy="300.7319"
    inkscape:current-layer="Layer_1" />
 
-<text
-   xml:space="preserve"
-   transform="matrix(2.6206809,0,0,-2.6206809,-195.25749,497.23367)"
+<path
+   style="font-size:192px;line-height:0.7;font-family:TALERO;-inkscape-font-specification:'TALERO, Normal';white-space:pre;fill:#3b3b4b;fill-rule:evenodd;stroke:#3b3b4b;stroke-width:2.13543"
+   d="m 162.10352,116.146 h -24 V 20.145999 h 24 z m 0,48 h -24 V 128.05 h 24 z m -24,-156.0960011 h -24 V 176.05 h 24 24 5.952 c 9.984,0 18.048,-7.872 18.048,-17.856 v -18.048 c 0,-9.984 -8.064,-18.048 -18.048,-18.048 h -6.144 6.144 c 9.984,0 18.048,-8.064 18.048,-18.048 V 26.097999 c 0,-9.984 -8.064,-18.0480001 -18.048,-18.0480001 h -5.952 z"
    id="text15"
-   style="font-size:96px;line-height:0.7;font-family:Olivera;-inkscape-font-specification:'Olivera, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect15);fill:#3b3b4b;fill-rule:evenodd;stroke:#3b3b4b;stroke-width:2.13543;fill-opacity:1"><tspan
-     x="114.10352"
-     y="176.05"
-     id="tspan3"><tspan
-       style="font-size:192px;font-family:TALERO;-inkscape-font-specification:'TALERO, Normal'"
-       id="tspan1">B</tspan></tspan></text><path
+   transform="matrix(2.6206809,0,0,-2.6206809,-195.25749,497.23367)"
+   aria-label="B" /><path
    style="fill:#cad3db;stroke-width:0.642906"
    d="m 291.58118,438.08703 c -4.78795,0 -8.67391,-1.66376 -8.67391,-3.7137 V 311.66782 c 0,-2.05373 3.88596,-3.7137 8.67391,-3.7137 4.78795,0 8.67391,1.65997 8.67391,3.7137 v 122.70593 c 0,2.04952 -3.88596,3.71328 -8.67391,3.71328"
    id="path5" /><path
