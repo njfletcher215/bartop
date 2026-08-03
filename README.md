@@ -31,7 +31,7 @@ sudo emerge jq
 Then, simply run the quick installer:
 ```bash
 cd bartop
-sudo ./install.sh
+sudo -E ./install.sh
 ```
 Or manually install:
 ```bash
